@@ -1,0 +1,389 @@
+/*导航*/
+.navbar{
+	margin-top: 20px;
+}
+.navbar-list ul{
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+}
+.navbar-list ul li{
+	margin-top: 55px;
+	border-right: 1px solid #000;
+	padding: 0px 15px;
+}
+.navbar-list ul li:last-child{
+	border-right:none;
+}
+.navbar-list li a{
+	font-size: 15px;
+	color: #000;
+}
+.navbar .tel{
+	margin-top: 45px;
+}
+.navbar .logo{
+	padding-left: 70px;
+}
+
+/*轮播图*/
+/*.img-responsive{
+	width: 100%;
+}*/
+.item img{
+	height: 600px !important;
+}
+
+/*关于我们*/
+.middle1{
+	margin: 80px 0px;
+}
+.middle1 .mid1-left img{
+	width: 95%;
+	height: 95%;
+	margin-top: 50px;
+	margin-left: 30px;
+}
+.middle1 .mid1-right{
+	font-size: 13.5px;
+	color: #000;
+}
+.mid1-title{
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+}
+.mid1-subtitle{
+	font-size: 18px;
+	font-weight: 550;
+	text-align: center;
+	margin: 5px 5px 15px 5px;
+}
+.middle1 .con-up p{
+	margin-left: 120px;
+	line-height: 30px;
+}
+.middle1 .con-down{
+	width: 90%;
+	margin: 20px 70px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+/*介绍*/
+.middle2{
+	clear: both;
+	position: absolute;
+}
+.middle2 .introduct{
+	width: 700px;
+	position: relative;
+	top: -340px;
+	left: 150px;
+}
+.middle2 .business{
+	display: flex;
+	flex-flow:row nowrap; 
+	margin-bottom: 50px;
+}
+.middle2 .business .intro-item{
+	margin-left: 15px;
+	margin-top: 10px;
+	color: #fff;
+}
+.middle2 .intro-item span{
+	font-size: 18px;
+}
+.middle2 .intro-item p{
+	font-size: 14px;
+}
+
+/*技术*/
+/*.middle3{
+	margin-top: 500px;
+}*/
+.mid3-title{
+	font-size: 24px;
+	font-weight: bold;
+	color: #000;
+	text-align: center;
+}
+.mid3-subtitle{
+	font-size: 18px;
+	font-weight: 550;
+	color: #000;
+	text-align: center;
+}
+.middle3 .mid3-con{
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	margin: 20px 0px;
+}
+.middle3 .mid3-con li{
+	margin: 0px 18px;
+}
+.middle3 .mid3-con .con-title{
+	font-size: 15px;
+	font-weight: bold;
+	color: #000000;
+	margin-left: 22px;
+	margin-top: 20px;
+}
+.middle3 .mid3-con p{
+	font-size: 12px;
+	line-height: 23px;
+	color: #000000;
+	margin-left: 22px;
+}
+
+/*我们的案例*/
+.middle4{
+	width: 100%;
+	height: 782px;
+	background-image: url(../images/js.jpg);
+	padding: 20px 50px;
+}
+.middle4 .mid4-con{
+	text-align: center;
+	margin-top: 30px;
+}
+.middle4 .mid4-con li{
+	display: inline-block;
+	margin: 15px 5px;
+}
+
+/*新闻动态*/
+.middle5{
+	padding: 50px 0px;
+}
+.middle5 .mid5-con .new-title{
+	width: 80%;
+	height: 30px;
+	line-height: 30px;
+	background: #414141;
+	font-size: 16px;
+	font-weight: bold;
+	color: #fff;
+	
+}
+.middle5 .mid5-con .new-title img{
+	margin-left:10px ;
+	margin-top:-5px ;
+}
+.middle5 .new ul{
+	width: 80%;
+}
+.middle5 .new ul li{
+	list-style-type: disc;
+	padding: 8px 20px;
+	font-size: 14px;
+	border-bottom: 1px dashed #ccc;
+	overflow: hidden;
+}
+.middle5 .new li span{
+	float: right;
+}
+
+footer{
+	background: #333333;
+	color: #8b8b8b;
+}
+.foot-nav{
+	text-align: center;
+}
+.foot-nav li{
+	display: inline-block;
+	font-size: 15px;
+	padding: 0px 10px;
+	margin-top: 30px;
+	border-right: 1px solid #8b8b8b;
+}
+.foot-nav li:last-child{
+	border-right: none;
+}
+.foot-nav li a{
+	color: #8b8b8b;
+}
+.contact{
+	margin: 20px 0px;
+	text-align: center;
+}
+.contact .cont-title{
+	font-size: 22px;
+	font-weight: bold;
+}
+.contact .cont-subtitle{
+	font-size: 14px;
+}
+.address{
+	border-top: 1px solid #424242;
+	padding: 30px 300px;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-around;
+}
+.address .down{
+	margin-top: 12px;
+}
+.address .addList p{
+	font-size: 14px;
+	margin: 20px -30px;
+}
+
+/*解决问题*/
+.contact1 .cont-title {
+	width: 95%;
+	background: #545756;
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 5px 0px;
+	margin: 0px 15px;
+	color: #fff;
+}
+.contact1 .cont-list{
+	margin: 20px 0px;
+}
+.contact1 .cont-list img{
+	margin-bottom: 30px;
+}
+.contact1 .row img{
+	text-align: center;
+}
+.contact1 .cont-list p{
+	text-align: center;
+	font-size: 15px;
+	line-height: 25px;
+}
+
+/*技术服务*/
+.contact2{
+	margin: 20px 0px;
+}
+.contact2 .row{
+	margin: 0px 90px;
+	height: 350px;
+	width: 90%;
+	/*border: 1px solid red;*/
+	overflow: hidden;
+}
+.contact2 .cont2-con{
+	background: #e6e7e7;
+	margin-left: -30px;
+	height: 350px;
+}
+.contact2 .cont2-img{
+    /*background-image: url(../images/js_img.jpg);*/
+    width: 530px;
+    height: 350px;
+    margin-left: -15px;
+}
+.contact2 .cont2-img img{
+	width: 530px;
+	height: 350px;
+}
+.contact2 .cont2-con .cont2-title{
+	font-size: 32px;
+	font-weight: bold;
+	color: #00a0e9;
+	margin-top: 120px;
+	margin-left: 40px;
+}
+.contact2 .cont2-con p{
+	font-size: 16px;
+	color: #000;
+	margin-top: 10px;
+	margin-left: 40px;
+	line-height: 25px;
+}
+
+/*关于我们：信息科技有限公司*/
+.address1{
+	padding: 30px 200px;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-around;
+}
+.address1 .addList .down{
+	margin-left: -30px;
+}
+.address1 .addList p{
+	font-size: 14px;
+	margin: 20px -20px;
+}
+
+/*新闻中心*/
+.contact3{
+	margin: 30px 0px;
+	text-align: left;
+}
+.contact3 .row{
+	margin: 50px 0px;
+}
+.contact3 .cont3-title{
+	font-size: 22px;
+	font-weight: bold;
+}
+.contact3 .cont3-subtitle{
+	font-size: 13px;
+	margin: 10px 0px;
+}
+.contact3 p{
+	font-size: 15px;
+	line-height: 25px;
+	color: #000;
+}
+.control{
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+}
+.control .control-list,p{
+	font-size: 16px;
+	margin-right: 10px;
+}
+.control .control-item li{
+	display: inline-block;
+	text-align: center;
+	font-size: 14px;
+	border: 1px solid #00a1e9;
+	padding: 10px 10px;
+	margin: 80px 5px;
+	margin-top: -10px;
+}
+.control .control-item li:first-child{
+	background: #00a1e9;
+}
+
+/*行业动态*/
+.detail{
+	margin: 40px 0px;
+}
+.detail .detail-title{
+	font-size: 18px;
+	font-weight: bold;
+	color: #595757;
+	margin: 10px 0px;
+	text-align: center;
+}
+.detail .detail-subtitle{
+	font-size: 14px;
+	color: #595757;
+	margin: 10px 0px;
+	text-align: center;
+}
+.detail .detail-img{
+	margin-left: 100px;
+}
+.detail p{
+	margin: 40px 0px;
+	margin-left: 100px;
+	font-size: 14px;
+	color: #000;
+}
+
+
+
+/*公司新闻*/

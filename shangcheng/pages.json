@@ -1,0 +1,87 @@
+{
+	"pages": [{
+		"path": "pages/index/index",
+		"style": {
+			"navigationStyle":"custom",
+			"navigationBarTitleText": "Thorui商城",  
+			"app-plus" : {  
+				"titleNView" : {  
+					"buttons" : [  
+						{  
+							"text" : "消息",  
+							"fontSize" : "14",  
+							"redDot" : true  
+						},  
+						{  
+							"text" : "关注",  
+							"fontSize" : "14",  
+							"badgeText" : "12"  
+						},
+						{  
+							"text": "<",   
+							"fontSize": "52rpx",  
+							"float": "left",
+							"color":"#000"
+						}
+					
+					]  
+				}  
+			}	
+		}
+	} ,{
+            "path" : "pages/my/my",
+            "style" : {
+				"navigationBarTitleText": "我的"
+			}
+        }
+        ,{
+            "path" : "pages/fenlei/fenlei",
+            "style" : {
+				"navigationBarTitleText": "分类"
+			}
+        }
+        ,{
+            "path" : "pages/shopcar/shopcar",
+            "style" : {
+				"navigationBarTitleText": "购物车"
+			}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#FFFFFF"
+	},
+	"tabBar": {
+	    "color": "#3c3c3c",
+	    "selectedColor": "#e7464b",
+	    "borderStyle": "black",
+	    "backgroundColor": "#ffffff",
+		"position":"bottom",
+		"height":"50px",
+	    "list": [{
+	        "pagePath": "pages/index/index",
+	        "iconPath": "static/img/shouye.png",
+	        "selectedIconPath": "static/img/hongfang.png",
+	        "text": "首页"
+	    }, {
+	        "pagePath": "pages/fenlei/fenlei",
+	        "iconPath": "static/img/fenlei.png",
+	        "selectedIconPath": "static/img/hongfen.png",
+	        "text": "分类"
+	    },{
+	        "pagePath": "pages/shopcar/shopcar",
+	        "iconPath": "static/img/shopcar.png",
+	        "selectedIconPath": "static/img/hongcar.png",
+	        "text": "购物车"
+	    },{
+	        "pagePath": "pages/my/my",
+	       "iconPath": "static/img/wode.png",
+	       "selectedIconPath": "static/img/hongwo.png",
+	        "text": "我的"
+	    }
+		
+		]
+	} 
+}
