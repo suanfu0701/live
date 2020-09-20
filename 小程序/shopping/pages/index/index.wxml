@@ -1,0 +1,131 @@
+<view class="pyg_index">
+  <!-- 搜索框 开始 -->
+  <SearchInput></SearchInput>
+  <!-- 搜索框 结束 -->
+
+  <!-- 轮播图 开始 -->
+  <view class="index_swiper">
+  <!-- 1 swiper标签存在默认的宽度和高度  100% * 150px
+       2 image标签也存在默认的宽度和高度  320px * 240px
+       3 设计图片和轮播图
+         1.先看一下原图的宽高  750*340
+         2.让图片的高度自适应 宽度 等于100%
+         3.让swiper标签的高度变成和图片的高一样即可
+       4 图片标签
+         mode属性 渲染模式
+          widthFix 让图片的标签宽高 和 图片标签的内容的宽高都等比例的发生变化 
+   -->
+    <swiper autoplay indicator-dots circular>
+      <swiper-item>
+        <navigator>
+          <image mode="widthFix" src="../../Images/banner/banner1.png"></image>
+        </navigator>
+      </swiper-item>
+      <swiper-item>
+        <navigator>
+          <image mode="widthFix" src="../../Images/banner/banner2.png"></image>
+        </navigator>
+      </swiper-item>
+      <swiper-item>
+        <navigator>
+          <image mode="widthFix" src="../../Images/banner/banner3.png"></image>
+        </navigator>
+      </swiper-item>
+    </swiper>
+  </view>
+  <!-- 轮播图 结束 -->
+
+  <!-- 导航 开始 -->
+  <view class="index_cate">
+    <navigator class="cate_nav">
+      <image mode="widthFix" src="../../Images/icon/icon_fenlei.png" class="cate"></image>
+    </navigator>
+    <navigator class="cate_nav">
+      <image mode="widthFix" src="../../Images/icon/icon_miaosha.png" class="cate"></image>
+    </navigator>
+    <navigator class="cate_nav">
+      <image mode="widthFix" src="../../Images/icon/icon_shop.png" class="cate"></image>
+    </navigator>
+    <navigator class="cate_nav">
+      <image mode="widthFix" src="../../Images/icon/icon_baby.png" class="cate"></image>
+    </navigator>
+  </view>
+  <!-- 导航 结束 -->
+
+  <!-- 楼层 开始 -->
+  <view class="index_floor">
+    <view class="floor_group">
+      <!-- 标题 -->
+      <view class="floor_title">
+        <image mode="widthFix" src="../../Images/floor/floor01_title.png" class="title_img"></image>
+      </view>
+      <!-- 内容 -->
+      <view class="floor_list">
+        <navigator class="floor_nav">
+          <image mode="widthFix" src="../../Images/floor/floor01_1.png" class="floor_nav_img1"></image>
+        </navigator>
+        <navigator class="floor_nav">
+          <image mode="scaleToFill" src="../../Images/floor/floor01_2.png" class="floor_nav_img1"></image>
+        </navigator>
+        <navigator class="floor_nav">
+          <image mode="scaleToFill" src="../../Images/floor/floor01_3.png" class="floor_nav_img1"></image>
+        </navigator>
+        <navigator class="floor_nav">
+          <image mode="scaleToFill" src="../../Images/floor/floor01_4.png" class="floor_nav_img1"></image>
+        </navigator>
+        <navigator class="floor_nav">
+          <image mode="scaleToFill" src="../../Images/floor/floor01_5.png" class="floor_nav_img1"></image>
+        </navigator>
+      </view>
+    </view>
+    <view class="floor_group">
+      <!-- 标题 -->
+      <view class="floor_title">
+        <image mode="widthFix" src="../../Images/floor/floor02_title.png" class="title_img"></image>
+      </view>
+      <!-- 内容 -->
+      <view class="floor_list">
+        <navigator class="floor_nav">
+          <image mode="widthFix" src="../../Images/floor/floor02_1.png" class="floor_nav_img1"></image>
+        </navigator>
+        <navigator class="floor_nav">
+          <image mode="scaleToFill" src="../../Images/floor/floor02_2.png" class="floor_nav_img1"></image>
+        </navigator>
+        <navigator class="floor_nav">
+          <image mode="scaleToFill" src="../../Images/floor/floor02_3.png" class="floor_nav_img1"></image>
+        </navigator>
+        <navigator class="floor_nav">
+          <image mode="scaleToFill" src="../../Images/floor/floor02_4.png" class="floor_nav_img1"></image>
+        </navigator>
+        <navigator class="floor_nav">
+          <image mode="scaleToFill" src="../../Images/floor/floor02_5.png" class="floor_nav_img1"></image>
+        </navigator>
+      </view>
+    </view>
+    <view class="floor_group">
+      <!-- 标题 -->
+      <view class="floor_title">
+        <image mode="widthFix" src="../../Images/floor/floor03_title.png" class="title_img"></image>
+      </view>
+      <!-- 内容 -->
+      <view class="floor_list">
+        <navigator class="floor_nav">
+          <image mode="widthFix" src="../../Images/floor/floor03_1.png" class="floor_nav_img1"></image>
+        </navigator>
+        <navigator class="floor_nav">
+          <image mode="scaleToFill" src="../../Images/floor/floor03_2.png" class="floor_nav_img1"></image>
+        </navigator>
+        <navigator class="floor_nav">
+          <image mode="scaleToFill" src="../../Images/floor/floor03_3.png" class="floor_nav_img1"></image>
+        </navigator>
+        <navigator class="floor_nav">
+          <image mode="scaleToFill" src="../../Images/floor/floor03_4.png" class="floor_nav_img1"></image>
+        </navigator>
+        <navigator class="floor_nav">
+          <image mode="scaleToFill" src="../../Images/floor/floor03_5.png" class="floor_nav_img1"></image>
+        </navigator>
+      </view>
+    </view>
+  </view>
+  <!-- 楼层 结束 -->
+</view>
